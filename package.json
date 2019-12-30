@@ -1,7 +1,8 @@
 {
-  "name": "hw-16.12.2019",
+  "name": "shop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://adirpion.github.io/shop",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -11,6 +12,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "shop": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
